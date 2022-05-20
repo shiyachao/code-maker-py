@@ -1,7 +1,9 @@
 # code-maker-py
 code maker by python. 
+版本：3
 #### 通过查询数据库表结构，对单表生成前端和后端代码，template下模板可以自行修改
-```json
+### 模板中注入的数据结构
+```python
 {
 	'dbName': 'oas',
 	'tableName': 'codeMap',
@@ -170,4 +172,9 @@ code maker by python.
 	'author': 'syc',
 	'phone': '12345678912'
 }
+```
+### 额外模块
+```
+MySQLdb
+Mako
 ```
