@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['gui.py', 'file.py', 'jdbc.py', 'main.py', 'util.py'],
-             pathex=['F:\\pythonWorkspace'],
+             pathex=['./'],
              binaries=[],
              datas=[('./config/*.json','config'),('./tm/*.tm','tm')],
              hiddenimports=[],

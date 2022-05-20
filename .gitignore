@@ -1,2 +1,3 @@
 .idea
 mysqlclient-2.1.0-cp310-cp310-win_amd64.whl
+/venv
