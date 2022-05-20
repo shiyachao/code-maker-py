@@ -93,7 +93,7 @@ def tl(tableName="", **arg):
         raise Exception("error")
     cursor = db.cursor()
     # 获取数据库表列表
-    sql = f'''
+    sql = '''
         SELECT
         table_name AS tableName,
         table_comment AS tableComment
